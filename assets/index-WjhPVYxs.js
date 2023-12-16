@@ -62,7 +62,7 @@ transition: all .7s;
     color: black;
     
 }
-`,Em=e=>N.jsxs(Cm,{children:[N.jsx("div",{children:N.jsx("img",{src:"/images/dices 1.png",alt:""})}),N.jsxs("div",{className:"content",children:[N.jsx("h1",{children:"DICE GAME"}),N.jsx(Ql,{onClick:e.toggle,children:"PLAY NOW"})]})]}),Cm=ft.div`
+`,Em=e=>N.jsxs(Cm,{children:[N.jsx("div",{children:N.jsx("img",{src:"images/dices 1.png",alt:""})}),N.jsxs("div",{className:"content",children:[N.jsx("h1",{children:"DICE GAME"}),N.jsx(Ql,{onClick:e.toggle,children:"PLAY NOW"})]})]}),Cm=ft.div`
     max-width: 1180px;
   display: flex;
   margin: 0 auto;
@@ -123,7 +123,7 @@ p{
     font-weight: 700;
     background-color: ${e=>e.isSelected?"black":"white"};
     color: ${e=>e.isSelected?"white":"black"};
-`,Rm=({diceNumber:e,roleDice:t})=>N.jsxs($m,{children:[N.jsx("div",{className:"dice",children:N.jsx("img",{src:`/images/dice_${e}.png`,alt:"dwd",onClick:t})}),N.jsx("p",{children:"Click on Dice to roll"})]}),$m=ft.div`
+`,Rm=({diceNumber:e,roleDice:t})=>N.jsxs($m,{children:[N.jsx("div",{className:"dice",children:N.jsx("img",{src:`images/dice_${e}.png`,alt:"dwd",onClick:t})}),N.jsx("p",{children:"Click on Dice to roll"})]}),$m=ft.div`
 display: flex;
 align-items:center;
 flex-direction: column;
